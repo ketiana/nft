@@ -1,0 +1,108 @@
+
+@media screen and (min-width:375px) and (max-width:1440px) {
+    background-color: hsl(217, 54%, 11%);
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+.card {
+    display: block;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px hsl(215, 46%, 5%);
+
+    
+}
+
+#profile {
+    display: block;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.words {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 16px;
+}
+
+.eq {
+    color: white;
+    padding-left: 12px;
+}
+
+.our {
+    color: hsl(215, 51%, 70%);
+    padding-left: 12px;
+}
+
+.number {
+    color: hsl(178, 100%, 50%);
+    padding-right: 30px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+}
+
+.group img{
+    width: 10px;
+    padding-right: 5px;
+}
+
+
+.clock {
+    display: flex;
+    align-items: center;
+}
+.clock img {
+    width: 17px;
+    padding-left: 15px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    color: hsl(215, 51%, 70%);
+   
+}
+ span {
+    color: white;
+ }
+
+ .author {
+    margin-bottom: 10px;
+ }
+.avatar img {
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 15px;
+}
+
+.line {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    display: block;
+    margin: 8px;
+}
+
+.attribution
